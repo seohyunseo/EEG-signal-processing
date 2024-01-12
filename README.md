@@ -34,6 +34,7 @@ signal processing, feature extraction, python, mne, TSNE
 - Singular value decomposition
 - Independent component analysis
 - Common spatial pattern
+- Power Spectral Density
 
 ### 4. Evaluation
 - t-SNE
