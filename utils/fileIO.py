@@ -20,12 +20,12 @@ def save_preprocessed_data(data, file_path):
 def load_preprocessed_data(file_path, n_channels):
     loaded_data = np.loadtxt(file_path, delimiter=',',dtype='object')
 
+    
     data_array_flattened = loaded_data[1:,:]
 
     num_trials = data_array_flattened.shape[0]
     num_channels = n_channels
-    num_samples_per_channel = data_array_flattened.shape[1] // num_channels
-  
+    num_samples_per_channel = data_array_flattened.shape[1] // num_channels  
 
     # Reshape the flattened data back to the original shape
     data_array_original_shape = data_array_flattened.reshape((num_trials, num_channels, num_samples_per_channel))

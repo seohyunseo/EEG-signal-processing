@@ -35,7 +35,6 @@ def evaluate_with_randomforest(X, y, feature_name=None, show=True):
     # Evaluate the model
 
     test_accuracy = accuracy_score(y_test, y_pred)
-    print(f"{feature_name} Test Accuracy: {test_accuracy:.2f}")
     
     if show:
         print("[Result of Random Forest]")
