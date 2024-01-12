@@ -16,11 +16,9 @@ signal processing, feature extraction, python, mne, TSNE
 
 ### 1. EEG dataset
 
-Dataset: Data set *‹self-paced 1s›*
-
-Source: https://www.bbci.de/competition/ii/berlin_desc.html
-
-Description: the goal is to predict the laterality of upcoming finger movements (left vs. right hand) 130 ms before keypress
+- Dataset: Data set *‹self-paced 1s›*
+- Source: https://www.bbci.de/competition/ii/berlin_desc.html
+- Description: the goal is to predict the laterality of upcoming finger movements (left vs. right hand) 130 ms before keypress
 
 ### 2. EEG signal pre-processing
 
