@@ -1,7 +1,7 @@
-# EEG-signal-processing
-EEG signal processing practice
+# EEG-signal-processing ver.1
 
 ## About this project
+BCI Competion II -  dataset IV (Berlin)
 EEG signal pre-processing and evaluation after feature extraction using python mne
 
 ## Keywords
