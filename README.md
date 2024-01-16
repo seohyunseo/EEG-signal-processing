@@ -2,6 +2,7 @@
 
 ## About this project
 BCI Competion II -  dataset IV (Berlin)
+
 EEG signal pre-processing and evaluation after feature extraction using python mne
 
 ## Keywords
